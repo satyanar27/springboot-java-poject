@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_satyanar27_springboot_java_poject_1706819223430-pr-trigger-input-set
+  identifier: Build_satyanar27_springboot_java_poject_1706819223430prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_satyanar27_springboot_java_poject_1706819223430
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
